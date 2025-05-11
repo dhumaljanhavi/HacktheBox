@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-span">
+            <img class="nav-img" src="../icon.png" alt="Hack The Box Logo" />
+            <a href="../hackBox.html" style="text-decoration: none;
+    color: antiquewhite;">HACKTHEBOX</a>
+        </div>
+
+        <ul class="nav-ul">
+            <li class="li-item dropdown">
+                <a href="#">Products</a>
+                <div class="dropdown-content">
+                    <a href="./productfolder/product.html">Interactive Learning Paths</a>
+                    <a href="#">Real-World Threat Labs</a>
+                    <a href="#">Skill-Based Assessments</a>
+                    <a href="#">Talent Insights Dashboard</a>
+                </div>
+            </li>
+
+            <li class="li-item dropdown">
+                <a href="#">Solution</a>
+                <div class="dropdown-content">
+                    <a href="#">Building Digital Defense</a>
+                    <a href="#">Cyber Consulting Reimagined</a>
+                    <a href="#">Education Meets Cybersecurity</a>
+                    <a href="#">Smarter Organizations</a>
+                </div>
+            </li>
+
+            <li class="li-item dropdown">
+                <a href="#">Pricing</a>
+                <div class="dropdown-content">
+                    <a href="#">Custom Security Needs</a>
+                    <a href="#">Cost-Effective Training</a>
+                    <a href="#">More Value with Every Plan</a>
+                    <a href="#">Transparent Pricing</a>
+                </div>
+            </li>
+
+            <li class="li-item dropdown">
+                <a href="#">Resources</a>
+                <div class="dropdown-content">
+                    <a href="#">Expert-Led Content</a>
+                    <a href="#">Knowledge Community</a>
+                    <a href="#">Learn at Your Own Pace</a>
+                </div>
+            </li>
+
+            <li class="li-item dropdown">
+                <a href="#">Company</a>
+                <div class="dropdown-content">
+                    <a href="#">Who We Are</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Leadership Team</a>
+                    <a href="#">Blog / News</a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="nav-span">
+            <ul class="nav-auth">
+                <li class="li-item"><a href="#">Business</a></li>
+                <li>
+                    <hr class="hr-line" />
+                </li>
+                <li class="li-item"><a href="./loginfolder/login.html">Login</a></li>
+            </ul>
+            <button class="nav-btn">Get Started</button>
+        </div>
+    </nav>
+
+    <!-- Login Section -->
+    <main class="login-container">
+        <div class="logo">
+            <img src="../icon.png" alt="Hack The Box Logo" />
+            <a href="../hackBox.html">HACKTHEBOX</a>
+        </div>
+
+        <div class="form-container">
+            <h2>Create a Hack The Box account</h2>
+            <form>
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+
+                <button type="submit" class="sign-in-btn" disabled>Sign in</button>
+
+                <div class="separator">
+                    <hr><span>or</span>
+                    <hr>
+                </div>
+
+                <div class="social-login">
+                    <div class="social-link google-link">
+                        <img src="./icons8-google-24.png" alt="Google Icon" />
+                        <a href="#">Sign in with Google</a>
+                    </div>
+                    <div class="social-link linkedin-link">
+                        <img src="./icons8-linkedin-24.png" alt="LinkedIn Icon" />
+                        <a href="#">Sign in with LinkedIn</a>
+                    </div>
+                    <div class="social-link github-link">
+                        <img src="./icons8-github-24.png" alt="GitHub Icon" />
+                        <a href="#">Sign in with GitHub</a>
+                    </div>
+                </div>
+
+                <p class="signup-text">
+                    Already have a Hack The Box account?
+                    <a href="../loginfolder/login.html" class="create-account">Sign In</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
